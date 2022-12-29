@@ -1,0 +1,51 @@
+#hot-desks-container {
+  max-width: 1500px;
+  width: 100%;
+}
+
+#hot-desks-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 10px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.hot-desk {
+  border: 1px solid lightgray;
+  box-shadow: 1px 1px 2px 2px gray;
+}
+
+.hot-desk-id {
+  font-size: 18px;
+  text-align: center;
+}
+
+.hot-desk-user-list {
+  width: 100%;
+}
+
+.hot-desk-open {
+  background-color: grey;
+  color: black;
+}
+
+.hot-desk-waiting-on-call {
+  background-color: green;
+  color: white;
+}
+
+.hot-desk-reserved {
+  background-color: red;
+  color: white;
+}
+
+.hot-desk-on-call {
+  background-color: blue;
+  color: white;
+}
+
+.hot-desk-on-break {
+  background-color: yellow;
+  color: black;
+}

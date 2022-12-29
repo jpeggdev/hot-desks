@@ -1,0 +1,495 @@
+{
+  "Locations": [
+    {
+      "LocationID": "1fd0b7f4-0268-4769-9a60-ecfce8465dea",
+      "Name": "Tulsa"
+    },
+    {
+      "LocationID": "b9cf6535-c2f9-438a-9db1-0b9fbf36010e",
+      "Name": "New York"
+    }
+  ],
+  "Desks": [
+    {
+      "DeskID": "c565f2c7-d142-4059-9c12-6d063f9d3056",
+      "Name": "Desk1",
+      "Location": "Tulsa"
+    },
+    {
+      "DeskID": "a4f49de5-7177-49d3-9faf-90193e516667",
+      "Name": "Desk2",
+      "Location": "Tulsa"
+    },
+    {
+      "DeskID": "cd783210-3da2-4ca5-afb4-bed606eec099",
+      "Name": "Desk3",
+      "Location": "Tulsa"
+    },
+    {
+      "DeskID": "e9d7333e-c9d6-4b41-a081-bd7197762fb9",
+      "Name": "Desk4",
+      "Location": "Tulsa"
+    },
+    {
+      "DeskID": "d75f17c9-26f5-4633-a41e-aa317048a2d5",
+      "Name": "Desk5",
+      "Location": "Tulsa"
+    },
+    {
+      "DeskID": "1f1d4a7f-936c-409c-b55f-6bbde9b2bd3e",
+      "Name": "Desk6",
+      "Location": "Tulsa"
+    },
+    {
+      "DeskID": "b6be5eb5-820f-49b1-932f-d9a3be2026ff",
+      "Name": "Desk7",
+      "Location": "New York"
+    }
+  ],
+  "Users": [
+    {
+      "UserID": "298ce27e-ff97-4859-8bb3-282bac82e639",
+      "Name": "Sally Smith",
+      "Location": "Tulsa"
+    },
+    {
+      "UserID": "a98d4255-6ca2-4f28-b065-98df5c44f6cb",
+      "Name": "Jeff Pegg",
+      "Location": "Tulsa"
+    },
+    {
+      "UserID": "843cae42-7c09-4f07-a706-0aa24ff5d0f1",
+      "Name": "Peter Bliskavka",
+      "Location": "Tulsa"
+    },
+    {
+      "UserID": "788fb72d-7701-4a35-87bc-1a2528563caf",
+      "Name": "Derek Woods",
+      "Location": "Tulsa"
+    },
+    {
+      "UserID": "7c751fae-fd4e-41d3-9906-67aacd15e3dc",
+      "Name": "Kashar Credit",
+      "Location": "Tulsa"
+    },
+    {
+      "UserID": "0c441a38-ed2c-4125-880d-fb81a1d7000b",
+      "Name": "Tim Aguero",
+      "Location": "New York"
+    }
+  ],
+  "Statuses": [
+    {
+      "StatusID": "f643deb2-f6b5-4c00-b646-86a4f66eb699",
+      "Name": "Open",
+      "CssClass": "hot-desk-open"
+    },
+    {
+      "StatusID": "d565229a-d01e-4e05-989a-728c227526e4",
+      "Name": "Reserved",
+      "CssClass": "hot-desk-reserved"
+    },
+    {
+      "StatusID": "aec33b0e-7ae9-4a21-881b-44b8739d961d",
+      "Name": "On Call",
+      "CssClass": "hot-desk-on-call"
+    },
+    {
+      "StatusID": "0079b4c9-ffc4-4df7-9fcf-d42974e68db4",
+      "Name": "Waiting On Call",
+      "CssClass": "hot-desk-waiting-on-call"
+    },
+    {
+      "StatusID": "c2402568-972e-479d-9106-dc12d867d287",
+      "Name": "On Break",
+      "CssClass": "hot-desk-on-break"
+    }
+  ],
+  "Reservations": [
+    {
+      "Desk": "Desk1",
+      "Location": "Tulsa",
+      "User": "",
+      "Status": "Open",
+      "StatusCssClass": "hot-desk-open"
+    },
+    {
+      "Desk": "Desk2",
+      "Location": "Tulsa",
+      "User": "",
+      "Status": "Open",
+      "StatusCssClass": "hot-desk-open"
+    },
+    {
+      "Desk": "Desk3",
+      "Location": "Tulsa",
+      "User": "Jeff Pegg",
+      "Status": "Reserved",
+      "StatusCssClass": "hot-desk-reserved"
+    },
+    {
+      "Desk": "Desk4",
+      "Location": "Tulsa",
+      "User": "Peter Bliskavka",
+      "Status": "On Call",
+      "StatusCssClass": "hot-desk-on-call"
+    },
+    {
+      "Desk": "Desk5",
+      "Location": "Tulsa",
+      "User": "Derek Woods",
+      "Status": "On Break",
+      "StatusCssClass": "hot-desk-on-break"
+    },
+    {
+      "Desk": "Desk6",
+      "Location": "Tulsa",
+      "User": "Kashar Credit",
+      "Status": "Waiting On Call",
+      "StatusCssClass": "hot-desk-waiting-on-call"
+    },
+    {
+      "Desk": "Desk1",
+      "Location": "Tulsa",
+      "User": "",
+      "Status": "Open",
+      "StatusCssClass": "hot-desk-open"
+    },
+    {
+      "Desk": "Desk2",
+      "Location": "Tulsa",
+      "User": "",
+      "Status": "Open",
+      "StatusCssClass": "hot-desk-open"
+    },
+    {
+      "Desk": "Desk3",
+      "Location": "Tulsa",
+      "User": "Jeff Pegg",
+      "Status": "Reserved",
+      "StatusCssClass": "hot-desk-reserved"
+    },
+    {
+      "Desk": "Desk4",
+      "Location": "Tulsa",
+      "User": "Peter Bliskavka",
+      "Status": "On Call",
+      "StatusCssClass": "hot-desk-on-call"
+    },
+    {
+      "Desk": "Desk5",
+      "Location": "Tulsa",
+      "User": "Derek Woods",
+      "Status": "On Break",
+      "StatusCssClass": "hot-desk-on-break"
+    },
+    {
+      "Desk": "Desk6",
+      "Location": "Tulsa",
+      "User": "Kashar Credit",
+      "Status": "Waiting On Call",
+      "StatusCssClass": "hot-desk-waiting-on-call"
+    },
+    {
+      "Desk": "Desk1",
+      "Location": "Tulsa",
+      "User": "",
+      "Status": "Open",
+      "StatusCssClass": "hot-desk-open"
+    },
+    {
+      "Desk": "Desk2",
+      "Location": "Tulsa",
+      "User": "",
+      "Status": "Open",
+      "StatusCssClass": "hot-desk-open"
+    },
+    {
+      "Desk": "Desk3",
+      "Location": "Tulsa",
+      "User": "Jeff Pegg",
+      "Status": "Reserved",
+      "StatusCssClass": "hot-desk-reserved"
+    },
+    {
+      "Desk": "Desk4",
+      "Location": "Tulsa",
+      "User": "Peter Bliskavka",
+      "Status": "On Call",
+      "StatusCssClass": "hot-desk-on-call"
+    },
+    {
+      "Desk": "Desk5",
+      "Location": "Tulsa",
+      "User": "Derek Woods",
+      "Status": "On Break",
+      "StatusCssClass": "hot-desk-on-break"
+    },
+    {
+      "Desk": "Desk6",
+      "Location": "Tulsa",
+      "User": "Kashar Credit",
+      "Status": "Waiting On Call",
+      "StatusCssClass": "hot-desk-waiting-on-call"
+    },
+    {
+      "Desk": "Desk1",
+      "Location": "Tulsa",
+      "User": "",
+      "Status": "Open",
+      "StatusCssClass": "hot-desk-open"
+    },
+    {
+      "Desk": "Desk2",
+      "Location": "Tulsa",
+      "User": "",
+      "Status": "Open",
+      "StatusCssClass": "hot-desk-open"
+    },
+    {
+      "Desk": "Desk3",
+      "Location": "Tulsa",
+      "User": "Jeff Pegg",
+      "Status": "Reserved",
+      "StatusCssClass": "hot-desk-reserved"
+    },
+    {
+      "Desk": "Desk4",
+      "Location": "Tulsa",
+      "User": "Peter Bliskavka",
+      "Status": "On Call",
+      "StatusCssClass": "hot-desk-on-call"
+    },
+    {
+      "Desk": "Desk5",
+      "Location": "Tulsa",
+      "User": "Derek Woods",
+      "Status": "On Break",
+      "StatusCssClass": "hot-desk-on-break"
+    },
+    {
+      "Desk": "Desk6",
+      "Location": "Tulsa",
+      "User": "Kashar Credit",
+      "Status": "Waiting On Call",
+      "StatusCssClass": "hot-desk-waiting-on-call"
+    },
+    {
+      "Desk": "Desk1",
+      "Location": "Tulsa",
+      "User": "",
+      "Status": "Open",
+      "StatusCssClass": "hot-desk-open"
+    },
+    {
+      "Desk": "Desk2",
+      "Location": "Tulsa",
+      "User": "",
+      "Status": "Open",
+      "StatusCssClass": "hot-desk-open"
+    },
+    {
+      "Desk": "Desk3",
+      "Location": "Tulsa",
+      "User": "Jeff Pegg",
+      "Status": "Reserved",
+      "StatusCssClass": "hot-desk-reserved"
+    },
+    {
+      "Desk": "Desk4",
+      "Location": "Tulsa",
+      "User": "Peter Bliskavka",
+      "Status": "On Call",
+      "StatusCssClass": "hot-desk-on-call"
+    },
+    {
+      "Desk": "Desk5",
+      "Location": "Tulsa",
+      "User": "Derek Woods",
+      "Status": "On Break",
+      "StatusCssClass": "hot-desk-on-break"
+    },
+    {
+      "Desk": "Desk6",
+      "Location": "Tulsa",
+      "User": "Kashar Credit",
+      "Status": "Waiting On Call",
+      "StatusCssClass": "hot-desk-waiting-on-call"
+    },
+    {
+      "Desk": "Desk1",
+      "Location": "Tulsa",
+      "User": "",
+      "Status": "Open",
+      "StatusCssClass": "hot-desk-open"
+    },
+    {
+      "Desk": "Desk2",
+      "Location": "Tulsa",
+      "User": "",
+      "Status": "Open",
+      "StatusCssClass": "hot-desk-open"
+    },
+    {
+      "Desk": "Desk3",
+      "Location": "Tulsa",
+      "User": "Jeff Pegg",
+      "Status": "Reserved",
+      "StatusCssClass": "hot-desk-reserved"
+    },
+    {
+      "Desk": "Desk4",
+      "Location": "Tulsa",
+      "User": "Peter Bliskavka",
+      "Status": "On Call",
+      "StatusCssClass": "hot-desk-on-call"
+    },
+    {
+      "Desk": "Desk5",
+      "Location": "Tulsa",
+      "User": "Derek Woods",
+      "Status": "On Break",
+      "StatusCssClass": "hot-desk-on-break"
+    },
+    {
+      "Desk": "Desk6",
+      "Location": "Tulsa",
+      "User": "Kashar Credit",
+      "Status": "Waiting On Call",
+      "StatusCssClass": "hot-desk-waiting-on-call"
+    },
+    {
+      "Desk": "Desk1",
+      "Location": "Tulsa",
+      "User": "",
+      "Status": "Open",
+      "StatusCssClass": "hot-desk-open"
+    },
+    {
+      "Desk": "Desk2",
+      "Location": "Tulsa",
+      "User": "",
+      "Status": "Open",
+      "StatusCssClass": "hot-desk-open"
+    },
+    {
+      "Desk": "Desk3",
+      "Location": "Tulsa",
+      "User": "Jeff Pegg",
+      "Status": "Reserved",
+      "StatusCssClass": "hot-desk-reserved"
+    },
+    {
+      "Desk": "Desk4",
+      "Location": "Tulsa",
+      "User": "Peter Bliskavka",
+      "Status": "On Call",
+      "StatusCssClass": "hot-desk-on-call"
+    },
+    {
+      "Desk": "Desk5",
+      "Location": "Tulsa",
+      "User": "Derek Woods",
+      "Status": "On Break",
+      "StatusCssClass": "hot-desk-on-break"
+    },
+    {
+      "Desk": "Desk6",
+      "Location": "Tulsa",
+      "User": "Kashar Credit",
+      "Status": "Waiting On Call",
+      "StatusCssClass": "hot-desk-waiting-on-call"
+    },
+    {
+      "Desk": "Desk1",
+      "Location": "Tulsa",
+      "User": "",
+      "Status": "Open",
+      "StatusCssClass": "hot-desk-open"
+    },
+    {
+      "Desk": "Desk2",
+      "Location": "Tulsa",
+      "User": "",
+      "Status": "Open",
+      "StatusCssClass": "hot-desk-open"
+    },
+    {
+      "Desk": "Desk3",
+      "Location": "Tulsa",
+      "User": "Jeff Pegg",
+      "Status": "Reserved",
+      "StatusCssClass": "hot-desk-reserved"
+    },
+    {
+      "Desk": "Desk4",
+      "Location": "Tulsa",
+      "User": "Peter Bliskavka",
+      "Status": "On Call",
+      "StatusCssClass": "hot-desk-on-call"
+    },
+    {
+      "Desk": "Desk5",
+      "Location": "Tulsa",
+      "User": "Derek Woods",
+      "Status": "On Break",
+      "StatusCssClass": "hot-desk-on-break"
+    },
+    {
+      "Desk": "Desk6",
+      "Location": "Tulsa",
+      "User": "Kashar Credit",
+      "Status": "Waiting On Call",
+      "StatusCssClass": "hot-desk-waiting-on-call"
+    },
+    {
+      "Desk": "Desk1",
+      "Location": "Tulsa",
+      "User": "",
+      "Status": "Open",
+      "StatusCssClass": "hot-desk-open"
+    },
+    {
+      "Desk": "Desk2",
+      "Location": "Tulsa",
+      "User": "",
+      "Status": "Open",
+      "StatusCssClass": "hot-desk-open"
+    },
+    {
+      "Desk": "Desk3",
+      "Location": "Tulsa",
+      "User": "Jeff Pegg",
+      "Status": "Reserved",
+      "StatusCssClass": "hot-desk-reserved"
+    },
+    {
+      "Desk": "Desk4",
+      "Location": "Tulsa",
+      "User": "Peter Bliskavka",
+      "Status": "On Call",
+      "StatusCssClass": "hot-desk-on-call"
+    },
+    {
+      "Desk": "Desk5",
+      "Location": "Tulsa",
+      "User": "Derek Woods",
+      "Status": "On Break",
+      "StatusCssClass": "hot-desk-on-break"
+    },
+    {
+      "Desk": "Desk6",
+      "Location": "Tulsa",
+      "User": "Kashar Credit",
+      "Status": "Waiting On Call",
+      "StatusCssClass": "hot-desk-waiting-on-call"
+    },
+    {
+      "Desk": "Desk7",
+      "Location": "New York",
+      "User": "Tim Aguero",
+      "Status": "Waiting On Call",
+      "StatusCssClass": "hot-desk-waiting-on-call"
+    }
+  ]
+}
